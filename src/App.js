@@ -17,7 +17,7 @@ console.log(uniqeList);
 
 
   const [menuData, setMenuData] = useState(Menu);
-  const [menuList, setmenuList] = useState(uniqeList);
+  const [menuList] = useState(uniqeList);
 
 
 

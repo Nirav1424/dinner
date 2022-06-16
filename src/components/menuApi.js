@@ -8,15 +8,6 @@ const Menu = [
     description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.  ",
   },
-  {
-    id: 10,
-    image: "../images/panipuri.png",
-    name: "panipuri",
-    category: "evening",
-    price: "10₹",
-    description:
-      "specialfor my friends r adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.  ",
-  },
 
   {
     id: 2,
@@ -90,7 +81,15 @@ const Menu = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.  ",
   },
- 
+  {
+    id: 10,
+    image: "../images/panipuri.png",
+    name: "panipuri",
+    category: "evening",
+    price: "10₹",
+    description:
+      "specialfor my friends r adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.  ",
+  },
 ];
 
 export default Menu;
