@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
+import Menu from "./components/menuApi";
+import React, { useState } from 'react'
+import Buttons from './Buttons';
+
+
 
 function App() {
+
+  const uniqeList = [...new Set(Menu.map((currentEle) => {
+    return currentEle.category;
+})),'All',
+]
+
+console.log(uniqeList);
+
+
+  const [menuData, setMenuData] = useState(Menu);
+  const [menuList, setmenuList] = useState(uniqeList);
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Buttons setMenuData={setMenuData} menuList={menuList} />
+      <Card menuData={menuData} />
+    </>
   );
 }
 
