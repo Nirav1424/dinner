@@ -88,7 +88,7 @@ const Menu = [
     category: "evening",
     price: "10₹",
     description:
-      "special for my wife roshni adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.  ",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.  ",
   },
 ];
 
